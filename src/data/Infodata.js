@@ -1,6 +1,6 @@
-import imageOne from './images/Interior-1.jpg'
-import imageTwo from './images/Interior-2.jpg'
-import imageThree from './images/Interior-3.jpg' 
+import imageOne from '../components/images/Interior-1.jpg'
+import imageTwo from '../components/images/Interior-2.jpg'
+import imageThree from '../components/images/Interior-3.jpg' 
 import imageFour from '../components/images/xflir1.svg' 
 
 
