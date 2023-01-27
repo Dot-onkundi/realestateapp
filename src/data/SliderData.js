@@ -1,4 +1,4 @@
-import ImageOne from '../components/ImagesThumb/House1.jpg';
+import ImageOne from '../components/ImagesThumb/House1.jpg'
 import ImageTwo from '../components/ImagesThumb/House1.jpg'
 import ImageThree from '../components/ImagesThumb/House1.jpg'
 import ImageFour from '../components/ImagesThumb/House1.jpg'

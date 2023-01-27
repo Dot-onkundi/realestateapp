@@ -1,11 +1,11 @@
 import React, {useState} from 'react'
 // import CardSection from './components/CardSection';
-import Cards from './components/Cards';
+// import Cards from './components/Cards';
 import DropDown from './components/DropDown';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Infosection from './components/Infosection';
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 // import { CardData0ne } from './data/Carddata';
 import {  InfoDataOne, InfoDataThree, InfoDataTwo } from './data/Infodata';
 import { SliderData } from './data/SliderData';
@@ -22,13 +22,13 @@ function App() {
     <>
    <DropDown isopen={isopen} toggle={toggle}/>
     <GlobalStyle/>
-    <Navbar toggle={toggle}/>
+    {/* <Navbar toggle={toggle}/> */}
     <Hero slides={SliderData}/>
     <Infosection {...InfoDataOne}/>
     <Infosection {...InfoDataTwo}/>
     <Infosection {...InfoDataThree}/>
     {/* <Infosection {...InfoDataFour}/> */}
-    <Cards/>
+    {/* <Cards/> */}
     {/* <CardSection {...CardData0ne}/> */}
     
     
